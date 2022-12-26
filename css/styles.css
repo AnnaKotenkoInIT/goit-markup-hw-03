@@ -1,0 +1,292 @@
+:root {
+  --main-title-color: #2e2f42;
+  --main-text-color: #434455;
+  --main-background-color: #ffffff;
+  --secondary-background-color: #2e2f42;
+  --button-background-color-accent: #4d5ae5;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* --------- Header ----------*/
+
+.container {
+  outline: 1px solid red;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #ffffff;
+}
+
+.header-container {
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.header-logo {
+  margin-right: 76px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-logo > span {
+  color: #2e2f42;
+}
+
+.header-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #4d5ae5;
+}
+
+.header-contacts {
+  display: flex;
+  gap: 40px;
+}
+
+.header-contacts-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-contacts-item:hover,
+.header-contacts-item:focus {
+  color: #404bbf;
+}
+
+/* --------- Hero ----------*/
+.hero {
+  background-color: var(--secondary-background-color);
+  text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.hero-title {
+  width: 494px;
+  margin-bottom: 48px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-button {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: var(--button-background-color-accent);
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+/* --------- Values ----------*/
+.values {
+  background-color: var(--main-background-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.values-item {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.02;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+
+.values-item-text {
+  font-size: 16px;
+  line-height: 1.28;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+/* --------- What are we doing ----------*/
+.offer {
+  background-color: var(--main-background-color);
+}
+
+.offer-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+
+/* --------- Our team ----------*/
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+
+.team-item {
+  background-color: var(--main-background-color);
+}
+
+.team-name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+/* --------- Footer ----------*/
+.footer {
+  background-color: var(--secondary-background-color);
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer-logo > span {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+
+/* --------- Portfolio  ----------*/
+
+.portfolio-site {
+  background-color: var(--main-background-color);
+}
+
+.portfolio-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background-color: var(--button-background-color-accent);
+}
+
+.offer-name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+
+.offer-type {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
