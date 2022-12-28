@@ -160,7 +160,8 @@ img {
 /* --------- Values ----------*/
 .values {
   background-color: var(--main-background-color);
-  padding: 120px 15px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .visually-hidden {
@@ -186,7 +187,6 @@ img {
 }
 
 .values-item {
-  width: ;
   margin-bottom: 8px;
   font-weight: 600;
   font-size: 20px;
